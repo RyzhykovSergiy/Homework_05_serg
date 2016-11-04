@@ -6,13 +6,11 @@
   font-style: normal;
 }
 
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 
 body {
   width: 100%;
@@ -44,7 +42,7 @@ body {
   margin: 0 auto;
 }
 
-.nav__wrap:after {
+.nav__wrap::after {
   content: "";
   display: block;
   clear: both;
@@ -70,7 +68,7 @@ body {
   padding-left: 48px;
 }
 
-.info__item--flag:before {
+.info__item--flag::before {
   content: '';
   display: block;
   position: absolute;
@@ -219,7 +217,7 @@ body {
   -moz-box-shadow: #7889B5 0 0 0 inset;
   box-shadow: #7889B5 0 0 0  inset;
 }
-.box__link:after {
+.box__link::after {
   content: "";
   display: block;
   clear: both;
@@ -273,7 +271,7 @@ body {
   border-top: 1px solid #666;
 }
 
-.line__box:after {
+.line__box::after {
   content: '';
   display: block;
   position: absolute;
